@@ -1,15 +1,17 @@
-# cybersec-assistant
+## CyberSecurity Ai assitant
 
-To install dependencies:
+A full-stack Gemini-based Cybersecurity Knowledge Assistant that:
 
-```bash
-bun install
-```
+ - Analyzes scan results (Semgrep, Gitleaks, etc.)
 
-To run:
+ - Supports prompt engineering and RAG (retrieval-augmented generation)
 
-```bash
-bun run index.ts
-```
+ - Ingests custom tool docs and uses them for contextual answers
 
-This project was created using `bun init` in bun v1.2.15. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+ - Accepts plain input or file uploads
+
+ - Logs all queries for auditing
+
+ - Clean architecture (Bun + Express + TypeScript + Prisma +          Docker-ready)
+
+
