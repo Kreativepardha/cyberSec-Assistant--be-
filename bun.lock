@@ -7,6 +7,7 @@
         "@google/generative-ai": "^0.24.1",
         "@prisma/client": "^6.12.0",
         "@types/cors": "^2.8.19",
+        "chromadb": "^3.0.9",
         "cors": "^2.8.5",
         "dotenv": "^17.2.0",
         "express": "^5.1.0",
@@ -299,6 +300,18 @@
     "check-error": ["check-error@2.1.1", "", {}, "sha512-OAlb+T7V4Op9OwdkjmguYRqncdlx5JiofwOAUkmTF+jNdHwzTaTs4sRAGpzLF3oOz5xAyDGrPgeIDFQmDOTiJw=="],
 
     "chokidar": ["chokidar@3.6.0", "", { "dependencies": { "anymatch": "~3.1.2", "braces": "~3.0.2", "glob-parent": "~5.1.2", "is-binary-path": "~2.1.0", "is-glob": "~4.0.1", "normalize-path": "~3.0.0", "readdirp": "~3.6.0" }, "optionalDependencies": { "fsevents": "~2.3.2" } }, "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="],
+
+    "chromadb": ["chromadb@3.0.9", "", { "dependencies": { "semver": "^7.7.1" }, "optionalDependencies": { "chromadb-js-bindings-darwin-arm64": "^1.0.1", "chromadb-js-bindings-darwin-x64": "^1.0.1", "chromadb-js-bindings-linux-arm64-gnu": "^1.0.1", "chromadb-js-bindings-linux-x64-gnu": "^1.0.1", "chromadb-js-bindings-win32-x64-msvc": "^1.0.1" }, "bin": { "chroma": "dist/cli.mjs" } }, "sha512-F9UcOpsUxcmwUvQm4QfFRPSKs7yEa/3WbDxx8akY0u0r3AKSANo/abAoX7T3AUZn8Knq9S5BhIixxQgEpVxhXg=="],
+
+    "chromadb-js-bindings-darwin-arm64": ["chromadb-js-bindings-darwin-arm64@1.0.1", "", { "os": "darwin", "cpu": "arm64" }, "sha512-IyvK0/AauGzaBtDmq/rSPZFGbUGLXpR0y30GXinwfLRitIPHN1S0tuygiULKV8CLQDIa5rOtnucLhfX0ARZIpw=="],
+
+    "chromadb-js-bindings-darwin-x64": ["chromadb-js-bindings-darwin-x64@1.0.1", "", { "os": "darwin", "cpu": "x64" }, "sha512-COpf6ESv95D6dHxYF7o3YAkz9aGFazBVFvIEOmYdlMd+O+ClrtUN9sNtrFF7JPXDCwvc4xWiq3NvuhfNGodyqQ=="],
+
+    "chromadb-js-bindings-linux-arm64-gnu": ["chromadb-js-bindings-linux-arm64-gnu@1.0.1", "", { "os": "linux", "cpu": "arm64" }, "sha512-M6i5UMMrQWao70Ic3R/QI8IJpvoFfysaLwQ5LDvs77M3TITguImLUk8nRmC+8Vt9e97zIMg2llHMy87gzTUvJA=="],
+
+    "chromadb-js-bindings-linux-x64-gnu": ["chromadb-js-bindings-linux-x64-gnu@1.0.1", "", { "os": "linux", "cpu": "x64" }, "sha512-Aw4WB+ojLgwcbopOLz2JnrmoCSRPUPmP9TBz1RUaZ3qTFINoyULkT1l6aD/O7leBZFYxRMLFQRfiCKp5uU+xYg=="],
+
+    "chromadb-js-bindings-win32-x64-msvc": ["chromadb-js-bindings-win32-x64-msvc@1.0.1", "", { "os": "win32", "cpu": "x64" }, "sha512-RNTJMrlUaiwUB6BODV7c5UqKW0EXzSH/vYBT/j7ZcSH2njzl18szDnirozCC4P4FNPKIbx5u1YzWCZZ9RlgjjQ=="],
 
     "ci-info": ["ci-info@4.3.0", "", {}, "sha512-l+2bNRMiQgcfILUi33labAZYIWlH1kWDp+ecNo5iisRKrbm0xcRyCww71/YU0Fkw0mAFpz9bJayXPjey6vkmaQ=="],
 
